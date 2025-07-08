@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="">
-      <h1>
+      <h1 className="text-grey text-center">
         ctrlmail
       </h1>
     </div>
