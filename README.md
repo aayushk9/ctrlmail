@@ -1,5 +1,3 @@
-CTRLMail 
+building ctrlmail with one goal in mind to make it super easy for anyone to control and command their inbox. btw i'm actively iterating on this so stay tuned. 
 
-i'm iterating over this, so stay tuned. btw main motive to build ctrlmail is that one should be able to control or command their inbox in a very simple way
-
-cheers till than 
+cheers till than
