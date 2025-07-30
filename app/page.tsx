@@ -1,5 +1,4 @@
-import { Mail, Search, UnlinkIcon as Unsubscribe, BarChart3, ArrowRight } from "lucide-react"
-import { Input } from "@/components/ui/input"
+import { Mail} from "lucide-react"
 import { Waitlist } from "@/components/waitlist"
 
 export default function Home() {
@@ -28,11 +27,7 @@ export default function Home() {
             email life using plain language commands.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
-            <Input
-              placeholder="Enter your email"
-              className="border-gray-800 text-white placeholder:text-gray-500 h-12"
-            />
-            <Waitlist/>
+            <Waitlist />
           </div>
         </div>
       </section>
