@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from 'zod'
 import { prismaClient } from "@/lib/db";
 
-export async function POST(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest) {
   const body = await req.json();
   const mail = body.mail
   // zod checkpoint to ensure its a valid mailid
