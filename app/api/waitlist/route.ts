@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
 
   const validMail = mailSchema.safeParse(mail);
 
-  if (!validMail) {
+  if (!validMail.success) {
     return NextResponse.json({
       message: "please enter a valid mail id"
     }, {
