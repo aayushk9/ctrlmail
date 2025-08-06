@@ -3,6 +3,7 @@ import { Waitlist } from "@/components/waitlist"
 
 export default function Home() {
   return (
+    <>
     <div className="min-h-screen bg-black text-white">
       <header className="">
         <div className="container mx-auto px-6 py-4">
@@ -32,5 +33,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </>
   )
 }

@@ -7,7 +7,6 @@ import { useState } from "react"
 
 export function Waitlist() {
     const [mail, setMail] = useState("");
-    //const URL = process.env.NEXT_PUBLIC_API
 
     const joinList = async() => {
         const res = await fetch(`/api/waitlist`, {
@@ -18,7 +17,6 @@ export function Waitlist() {
             body: JSON.stringify({mail})
         })
 
-        //const data = await res.json();
         if(res.status == 200) {
             alert("thank you for joining ctrlmail, you'll be notified via mail regarding early access")
         } else if(res.status == 401){
