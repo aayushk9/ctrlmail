@@ -7,10 +7,10 @@ import { useState } from "react"
 
 export function Waitlist() {
     const [mail, setMail] = useState("");
-    const URL = process.env.NEXT_PUBLIC_API
+    //const URL = process.env.NEXT_PUBLIC_API
 
     const joinList = async() => {
-        const res = await fetch(`${URL}/waitlist`, {
+        const res = await fetch(`/api/waitlist`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
