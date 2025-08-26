@@ -1,0 +1,14 @@
+- login with google account (mail)
+- parse/scrape mails
+- after we get the entire mail data of a user's account:
+
+start with each feature (every feature should follow just one principle i.e user should control & command thier inbox)
+
+1. build a feature where user can see a nice interface where they have the list of mail subscriptions they have and a option button to un sub interface
+and also detailed analysis of how much time you spent on each sub such as opened how many times, visited, read, time spent etc
+ 
+   for this feature we will be needing entire mail history (data) and render all subs and a power button of subscription
+
+2. time spent and engagement insights
+
+3. command box less of a llm but here you can command ctrlmail and expect it to tell you or answer whatever you expect from it
